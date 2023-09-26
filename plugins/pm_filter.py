@@ -310,8 +310,7 @@ async def language_check(bot, query):
                 [
                     InlineKeyboardButton(
                         text=f"{get_size(file.file_size)}",
-                    url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}")
-                        
+                    url=await get_shortlink(query.message.chat.id, f"https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}"))   
                 ]
                 for file in files
             ]
