@@ -309,8 +309,7 @@ async def language_check(bot, query):
             btn = [
                 [
                     InlineKeyboardButton(
-                    text=f"{get_size(file.file_size)} ᠰ {file.file_name}", url=f"https://telegram.dog/{temp.U_NAME}?start=aNsH_{file.file_id}"), 
-                ),
+                    text=f"{get_size(file.file_size)} ᠰ {file.file_name}", url=f"https://telegram.dog/{temp.U_NAME}?start=aNsH_{file.file_id}"),         
             ]
             for file in files
             ]
